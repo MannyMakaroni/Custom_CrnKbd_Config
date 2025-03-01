@@ -24,7 +24,7 @@
             label = "MOVE";
         };
 
-        BooleanSplit: Split {
+        BooleanSplit: BooleanSplit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp EXCL &kp UNDER &kp LS(B) &kp O &kp O &kp L &kp E &kp A &kp N &kp LS(S) &kp P &kp L &kp I &kp T &kp RET>;
